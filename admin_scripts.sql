@@ -1,0 +1,12 @@
+SELECT DB_NAME();
+
+EXEC sp_spaceused;
+
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES;
+
+SELECT *
+FROM sys.indexes;
+
+SELECT TOP 10 *
+FROM sys.objects;
